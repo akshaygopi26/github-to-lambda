@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "sections": 3,
+    "sectionNames": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "sections": {
+
+    "1": { "metadata" : {"access":"public"}, "elements":
+    [
+      {
+        "type": "logo",
+        "content": "ORGILL",
+        "tag": "",
+        "logoPath": "<path to logo>",
+        "alignment": "left"
+      },
+      {
+        "type": "h1",
+        "content": "Gondola Train Rental Agreement",
+        "tag": "",
+        "alignment": "center"
+      },
+      {
+        "type": "h2",
+        "content": "Gondola Train Rental Rates:",
+        "tag": "",
+        "alignment": "center"
+      },
+      
+      
+      
+      {
+        "type": "table",
+        "rows": 3,
+        "columns": 2,
+        "header": false,
+        "headerNames": [],
+        "contents": [
+          {
+            "rowData": [
+              "1st week",
+              "$ 600.00"
+            ],
+            "alingment": "center",
+            "tag": ""
+          },
+          {
+            "rowData": [
+              "Each Additional Week",
+              "$ 300.00"
+            ],
+            "alingment": "center",
+            "tag": ""
+          },
+          {
+            "rowData": [
+              "4-8 Week Remodel Rate",
+              "$ 1,500.00"
+            ],
+            "alingment": "center",
+            "tag": ""
+          }
+        ],
+        "tag": "",
+        "alignment": "center"
+      },
+    {
+      "type": "info",
+      "content": "** For any questions or to inquire about availability, please contact:Jacob Edwards at ext 6474 or RetailPrograms@orgill.com",
+      "tag": "",
+      "alignment":"center"
+    }
+    ]},
+    "2":{ "metadata" : {"access":"public"}, "elements":
+    [
+      {
+        "type": "form",
+        "contents" : [
+            {
+          "type": "date",
+          "editable" : true,
+          "content": "Date",
+          "default" : "",
+          "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "validations" : {
+            "field" : "date",
+            "minDate" : "20/09/2021",
+            "maxDate" : "20/01/2022"
+          }
+        },
+        {
+          "type" : "textbox",
+          "content": "Customer Name:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+            "validations" : {}
+        },
+        {
+          "type" : "textbox",
+          "content": "Ship to #:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "50%",
+           "validations" : {}
+           
+        },
+         {
+          "type" : "textbox",
+          "content": "Bill to#:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "50%",
+           "validations" : {}
+           
+        },
+        {
+          "type" : "multiline-textbox",
+          "lineCount" : 2,
+          "content": "Ship to Address:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+           "validations" : {}
+           
+        },
+        {
+          "type" : "textbox",
+          "content": "PO # (if required):",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : false,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+           "validations" : {
+             
+           }
+           
+        },
+        {
+          "type" : "textbox",
+          "content": "Store Contact Name:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+           
+           
+        },
+         {"type" : "textbox",
+          "content": "Store Phone Number:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+         },
+          {"type" : "textbox",
+          "content": "Email address:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+         },
+         {"type" : "date",
+          "content": "Rental Start Date:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+            "field" : "date",
+            "minDate" : "20/06/2021",
+            "maxDate" : "20/01/2022"
+          }
+         },
+         {"type" : "date",
+          "content": "Estimated Finish Date:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+            "field" : "date",
+            "minDate" : "20/06/2021",
+            "maxDate" : "20/01/2022"
+          }
+         },
+         
+         {"type" : "signature",
+          "content": "Owner/Manager Signature",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+         }
+        
+        
+          ]
+        
+      }
+    ]},
+    "3": { "metadata" : {"access":"public"}, "elements":
+    [
+      
+       {
+      "type": "h2",
+      "content": "Orgill use only",
+      "tag": "",
+      "alignment":"left"
+    },
+    {
+      "type": "form",
+      "contents": [
+        {
+         "type" : "textbox",
+          "content": "Warehouse:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+        },
+        {
+          "type" : "textbox",
+          "content": "Fill Day:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+        },
+        {
+          "type" : "textbox",
+          "content": "Del. Day:",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+        },
+        {
+           "type" : "textbox",
+          "content": "Credit approval#",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+        },
+        {
+           "type" : "textbox",
+          "content": "Reservation #",
+          "default": "",
+          "editable" : true,
+           "tag" : "",
+          "required" : true,
+          "alignment" : "left",
+          "tooltip" : "",
+          "width" : "100%",
+          "validations" : {
+             
+           }
+        }
+
+              ]
+    }
+      
+      
+      ]}
+  }
+}
